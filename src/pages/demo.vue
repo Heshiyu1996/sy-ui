@@ -1,6 +1,10 @@
 <template>
     <div class="main2">
-        I am demo
+        <ul>
+            <li>
+                <u-button>123</u-button>
+            </li>
+        </ul>
     </div>
 </template>
 
