@@ -1,6 +1,10 @@
 <template>
     <div class="main">
-        I am main
+        <img alt="Vue logo" src="./../assets/logo.png" />
+        sy UI库
+        <router-link to="/demo">
+            点击进入
+        </router-link>
     </div>
 </template>
 
@@ -10,5 +14,4 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>

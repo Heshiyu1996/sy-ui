@@ -8,8 +8,12 @@ const router = new VueRouter({
         {
             path: '/',
             name: 'main',
-            redirect: { name: 'intention' },
             component: require('@/pages/main').default
+        },
+        {
+            path: '/demo',
+            name: 'demo',
+            component: () => import('@/pages/demo')
         }
     ]
 })
